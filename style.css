@@ -1,0 +1,209 @@
+
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url(img/vidl.avif);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+.header h1{
+    text-align: center;
+    color: rgb(12, 105, 7);
+    font-size: 120px;
+    margin-top: 10px;
+}
+
+.header_nav{
+    position: fixed;
+    top: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 80px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.221);
+    background-color: rgba(180, 129, 129, 0.311);
+    }
+
+.header_nav a{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(251, 250, 250);
+    font-weight: bold;
+    
+    
+}
+
+.header_nav a:hover{
+    color: blue;
+    transition: .5s;
+}
+
+.main{
+    margin-top: 10px;  
+}
+
+.main h2{
+    margin-bottom: 100px;
+    color: rgb(207, 12, 12);
+    font-size: 80px;
+    text-decoration: none;
+}
+.propos{
+    text-align: center;
+    
+
+}
+
+
+.horraire h2{
+    text-decoration: none;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    color: rgb(251, 247, 247);
+}
+
+.main p{
+    margin-left: 20px;
+    margin-top: 80px;
+    color: rgb(243, 244, 249);
+    font-size: 40px;
+}
+
+.main ul{
+
+    border-color: black;
+    color: rgb(229, 231, 235);
+    font-size: 50px;
+    margin-right: 30px;
+    margin-bottom: 90px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    
+}
+
+.footer a{ 
+    margin-right: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: rgb(246, 249, 246);
+    
+    
+}
+
+.footer a:hover{
+    color: blue;
+    transition: 0.3s;
+}
+
+.horraire{
+    border: 2px solid black;
+    background-color: rgba(180, 129, 129, 0.311);
+    margin-top: 50px;
+    margin-right: 500px;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+}
+
+.img{
+    width: 80%;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.h22{
+    
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+.menu{
+    margin-top: 50px;
+    color: green;
+    font-size: 46px;
+    background-color: rgba(180, 129, 129, 0.311);
+}
+
+.blanc{
+    color: white;
+    font-size: 46px;
+    background-color: rgba(180, 129, 129, 0.311);
+
+}
+
+.rouge{
+    color: red;
+    font-size: 46px;
+    background-color: rgba(180, 129, 129, 0.311);
+
+}
+
+.title{
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+.field{
+    background-color: rgba(180, 129, 129, 0.311);
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 900px) {
+    .main p{
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .main h2{
+        margin-top: 150px;
+    }
+
+    .horraire{
+        display: flex;
+        flex-direction: column;
+    }
+         
+}
+
+
+
+
+
+
+
+
