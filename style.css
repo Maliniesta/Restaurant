@@ -168,10 +168,53 @@ body{
     text-decoration: underline;
 }
 
+.colonne{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .field{
     background-color: rgba(180, 129, 129, 0.311);
     color: white;
+    width: 50%;
+    margin: 0 auto;
+    
+
+    
    
+}
+
+.maps{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    height: 550px;
+    width: 600px;
+    
+    
+
+}
+
+.adress{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+    
+    
+}
+
+.propos{
+    font-size: 50px;
+    color: white;
+    margin-top: 170px;
+}
+
+.contact{
+    color: rgb(244, 249, 244);
+    font-size: 50px;
 }
 
 
@@ -196,6 +239,9 @@ body{
     .horraire{
         display: flex;
         flex-direction: column;
+    }
+    .field{ 
+        width: 50%;
     }
          
 }
